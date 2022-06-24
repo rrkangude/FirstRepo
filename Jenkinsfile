@@ -36,11 +36,11 @@ pipeline {
         }
         stage('Test') {
             steps {
-<<<<<<< HEAD
+     HEAD
                 echo 'Testing, Magic starts here!!!..'
 =======
                 echo 'Testing part is loading..'
->>>>>>> 5fd7a73fea0e2f5a78c270ac9e047673fdd127b5
+ 5fd7a73fea0e2f5a78c270ac9e047673fdd127b5
             }
         }
         stage('Report') {
