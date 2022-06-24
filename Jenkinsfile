@@ -36,7 +36,11 @@ pipeline {
         }
         stage('Test') {
             steps {
+<<<<<<< HEAD
                 echo 'Testing, Magic starts here!!!..'
+=======
+                echo 'Testing part is loading..'
+>>>>>>> 5fd7a73fea0e2f5a78c270ac9e047673fdd127b5
             }
         }
         stage('Report') {
@@ -55,7 +59,7 @@ pipeline {
 
             // the always stage can contain build steps like other stages
             // a "steps{...}" section is not needed.
-            echo "This step will run after all other steps have finished.  It will always run, even in the status of the build is not SUCCESS"
+            echo "This step will run after all other steps have finished, I am fine with it.  It will always run, even in the status of the build is not SUCCESS"
         }
     }
 }
